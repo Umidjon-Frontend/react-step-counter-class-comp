@@ -1,0 +1,40 @@
+.step-counter-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.step-counter-box {
+  width: 500px;
+  background-color: #48cae4;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+.step-counter-box .header h1 {
+  font-size: 4rem;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+.section h1 {
+  font-size: 3rem;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+.btn {
+  font-size: 2rem;
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #48cae4;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #48cae4;
+}
